@@ -24,4 +24,5 @@ html {
     background-color: #00acee;
     display: flex;
     align-items: center;
+    margin: 0; /* agregar esta línea para quitar el margen */
   }
