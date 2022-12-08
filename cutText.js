@@ -2,6 +2,11 @@ function cutText() {
     // obtener el texto del cuadro de entrada
     var input = document.getElementById("inputText").value;
   
+    // asegurarse de que el texto termine en un espacio
+    if (input.charAt(input.length - 1) !== " ") {
+      input += " ";  // utilizar el operador de concatenación en lugar del de asignación
+    }
+  
     // dividir el texto en partes de 240 caracteres
     var parts = [];
     var start = 0;
@@ -28,7 +33,9 @@ function cutText() {
       // agregar el contador al div
       partDiv.innerText = (i + 1) + "/" + parts.length + ": " + parts[i];
   
-      // agregar el div al div principal
-      outputDiv.appendChild(partDiv);
+      // agregar el div al div principal solo si tiene texto
+      if (partDiv.innerText.trim() !== "") {
+        outputDiv.appendChild(partDiv);
+      }
     }
-  }  
+  }
