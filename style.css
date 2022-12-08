@@ -1,7 +1,7 @@
 /* archivo CSS */
 #title {
     font-family: "Chirp", sans-serif;
-    color: white;      /* cambiar el color del texto */
+    color: white;
   }  
 textarea {
     width: 500px;
@@ -11,10 +11,13 @@ textarea {
     margin: 30px 0;  /* agregar margen de 10px arriba y abajo */
     width: 500px
   }
-html {
-    width: 500px; 
+#content {
+    width: 500px;
     margin: 0 auto;
   }
+body{
+    margin: 0;
+}
 #cutbutton{
     margin-top: 10px;
 }
@@ -24,5 +27,17 @@ html {
     background-color: #00acee;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0; /* agregar esta línea para quitar el margen */
   }
+button {
+    background-color: #00acee; /* cambiar el color de fondo del botón */
+    color: white; /* cambiar el color del texto del botón */
+    font-family: sans-serif; /* cambiar la fuente del texto del botón */
+    font-size: 16px; /* cambiar el tamaño de la fuente del texto del botón */
+    padding: 10px 20px; /* agregar espacio interno al botón */
+    border: none; /* eliminar el borde del botón */
+  }
+  button:hover {
+    background-color: #0094d9; /* cambiar el color de fondo del botón cuando el puntero del ratón esté encima de él */
+  }  
