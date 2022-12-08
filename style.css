@@ -1,0 +1,18 @@
+/* archivo CSS */
+h1 {
+    text-align: center;  /* centrar el texto */
+    color: blue;         /* cambiar el color del texto */
+    font-family: sans-serif;  /* cambiar la fuente */
+  }
+/* archivo CSS */
+textarea {
+    width: 500px;
+    height: 200px;
+  }
+#outputDiv > div {
+    margin: 30px 0;  /* agregar margen de 10px arriba y abajo */
+    width: 500px
+  }
+div:hover{
+    color: black
+}
