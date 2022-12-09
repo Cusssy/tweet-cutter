@@ -1,6 +1,6 @@
 /* archivo CSS */
-text{
-    color:white
+p{
+    color: #333333
 }
 #title {
     font-family: "Chirp", sans-serif;
@@ -20,7 +20,7 @@ textarea {
   }
 body{
     margin: 0;
-    background-color: #14171a; /* cambiar el color de fondo a gris oscuro */
+    background-color: #F4F8FB;
 }
 #cutbutton{
     margin-top: 10px;
