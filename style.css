@@ -9,8 +9,9 @@ p{
     color: white;
   }  
 textarea {
-    width: 80%;
+    width: 100%;
     height: 200px;
+    margin-left: 10px;
     font-family: 'Bree Serif', serif;
     color: #00acee;
     background-color: #F4F8FB;
@@ -27,7 +28,7 @@ textarea {
   }
   
 #content {
-    width: 500px;
+    width: 80%;
     margin: 0 auto;
   }
 body{
@@ -36,6 +37,7 @@ body{
 }
 #cutbutton{
     margin-top: 10px;
+    margin-left: 10px;
 }
 #titleBar {
     width: 100%;
