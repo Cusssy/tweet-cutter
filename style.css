@@ -1,7 +1,7 @@
 /* archivo CSS */
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&family=Bree+Serif&display=swap');
 p{
-    color: #333333;
+    color: #00acee;
     font-family: 'Bree Serif', serif;
 }
 #title {
@@ -15,11 +15,12 @@ textarea {
   #outputDiv > div {
     margin: 30px 0;  /* agregar margen de 10px arriba y abajo */
     width: 500px;
-    cursor: pointer;  /* agregar cursor de puntero al pasar el ratón por encima */
+    cursor: pointer; /* agregar cursor de puntero al pasar el ratón por encima */
+    color: #00acee
   }
 
   #outputDiv > div:hover {
-    font-weight: bold;  /* hacer el texto en negrita al pasar el ratón por encima */
+    color: #0094d9  /* hacer el texto en negrita al pasar el ratón por encima */
   }
   
 #content {
