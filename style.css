@@ -1,4 +1,8 @@
 /* archivo CSS */
+@font-face {
+    font-family: "Chirp";
+    src: url("https://github.com/Cusssy/tweet-cutter/blob/main/fonts/Chirp.ttf");
+  }
 p{
     color: #333333
 }
