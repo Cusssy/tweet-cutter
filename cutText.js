@@ -11,7 +11,7 @@ function cutText() {
     var parts = [];
     var start = 0;
     while (start < input.length) {
-      var end = start + 240;
+      var end = start + 230;
       if (end > input.length) {
         end = input.length;
       }
@@ -37,6 +37,19 @@ function cutText() {
       // agregar el div al div principal solo si tiene texto
       if (partDiv.innerText.trim() !== "") {
         outputDiv.appendChild(partDiv);
+      }
+    }
+      // agregar el evento onclick a cada div
+    let divs = outputDiv.childNodes;
+    for (let i = 0; i < divs.length; i++) {
+      divs[i].onclick = function() {
+        // seleccionar el texto del div
+        let range = document.createRange();
+        range.selectNode(this);
+        window.getSelection().addRange(range);
+        
+        // copiar el texto seleccionado al portapapeles
+        document.execCommand("copy");
       }
     }
   }
