@@ -39,7 +39,7 @@ body{
 button {
     background-color: #00acee; /* cambiar el color de fondo del botón */
     color: white; /* cambiar el color del texto del botón */
-    font-family: sans-serif; /* cambiar la fuente del texto del botón */
+    font-family: 'Bree Serif', serif; /* cambiar la fuente del texto del botón */
     font-size: 16px; /* cambiar el tamaño de la fuente del texto del botón */
     padding: 10px 20px; /* agregar espacio interno al botón */
     border: none; /* eliminar el borde del botón */
