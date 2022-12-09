@@ -25,6 +25,7 @@ function cutText() {
   
     // crear divs para mostrar el texto cortado
     var outputDiv = document.getElementById("outputDiv");
+    
     outputDiv.innerHTML = "";  // limpiar el contenido existente
     for (var i = 0; i < parts.length; i++) {
       // crear un div para el fragmento actual

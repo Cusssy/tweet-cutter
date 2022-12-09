@@ -16,6 +16,9 @@ textarea {
     margin: 30px 0;  /* agregar margen de 10px arriba y abajo */
     width: 500px
   }
+#outputDiv:hover {
+    font-weight: bold;
+  }
 #content {
     width: 500px;
     margin: 0 auto;
@@ -46,4 +49,12 @@ button {
   }
   button:hover {
     background-color: #0094d9; /* cambiar el color de fondo del botón cuando el puntero del ratón esté encima de él */
-  }  
+  } 
+/* archivo CSS */
+.textFragment {
+    font-weight: normal; /* establecer el peso normal para todos los fragmentos de texto */
+  }
+  
+  .textFragment:hover {
+    font-weight: bold; /* hacer que se ponga en negrita al pasar el ratón por encima */
+  }
