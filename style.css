@@ -1,13 +1,11 @@
 /* archivo CSS */
-@font-face {
-    font-family: "Chirp";
-    src: url("https://github.com/Cusssy/tweet-cutter/blob/main/fonts/Chirp.ttf");
-  }
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&family=Bree+Serif&display=swap');
 p{
-    color: #333333
+    color: #333333;
+    font-family: 'Bree Serif', serif;
 }
 #title {
-    font-family: "Chirp", sans-serif;
+    font-family: 'Bree Serif', serif;
     color: white;
   }  
 textarea {
