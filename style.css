@@ -12,13 +12,16 @@ textarea {
     width: 500px;
     height: 200px;
   }
-#outputDiv > div {
+  #outputDiv > div {
     margin: 30px 0;  /* agregar margen de 10px arriba y abajo */
-    width: 500px
+    width: 500px;
+    cursor: pointer;  /* agregar cursor de puntero al pasar el ratón por encima */
   }
-#outputDiv:hover {
-    font-weight: bold;
+
+  #outputDiv > div:hover {
+    font-weight: bold;  /* hacer el texto en negrita al pasar el ratón por encima */
   }
+  
 #content {
     width: 500px;
     margin: 0 auto;
@@ -51,10 +54,7 @@ button {
     background-color: #0094d9; /* cambiar el color de fondo del botón cuando el puntero del ratón esté encima de él */
   } 
 /* archivo CSS */
-.textFragment {
-    font-weight: normal; /* establecer el peso normal para todos los fragmentos de texto */
-  }
-  
-  .textFragment:hover {
-    font-weight: bold; /* hacer que se ponga en negrita al pasar el ratón por encima */
-  }
+
+  .highlight {
+    font-weight: bold;
+}
