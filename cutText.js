@@ -32,7 +32,7 @@ function cutText() {
       var partDiv = document.createElement("div");
   
       // agregar el contador al div
-      partDiv.innerText = (i + 1) + "/" + parts.length + ": " + parts[i];
+      partDiv.innerText = parts[i] + " [" + (i + 1) + "/" + parts.length + "]";
   
       // agregar el div al div principal solo si tiene texto
       if (partDiv.innerText.trim() !== "") {
